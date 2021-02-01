@@ -22,7 +22,7 @@ Giving `7ħω/2`, `Sqrt[ħ/(mω)]` and `0` respectively.
 
 If all the mixed states has the same probability, you don't have to specify the weights.
 ```mathematica
-psi = WaveFunction[2,3,5,7,11] (* (|2>+|3>+|5>+|7>)/√5 *)
+psi = WaveFunction[2,3,5,7,11] (* (|2>+|3>+|5>+|7>+|11>)/√5 *)
 ```
 
 ##### Time evolution
