@@ -2,6 +2,22 @@
 
 For now, only notation for doing QM on Mathematica.
 
+### Commutator
+
+```
+Lie[L[1], x[1]]
+```
+
+```
+Lie[L[1], x[3]]
+```
+
+
+```
+Lie[L[1], L[2]] // TensorExpand // Factor
+I \[HBar] L[3]
+```
+
 ### BraKetHarmonic
 
 Suppose you have a state `|Ψ> = |2>/√2 + |3>/√3 + |6>/√6`. You can generate it using 
